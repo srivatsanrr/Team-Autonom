@@ -7,7 +7,7 @@ meanShift= False
 padding= (0,0)
 scale= 1.05
 
-cap = cv2.VideoCapture('crash2.mp4')
+cap = cv2.VideoCapture('crash.mp4')
 
 while(cap.isOpened()):
 	ret,frame = cap.read()
